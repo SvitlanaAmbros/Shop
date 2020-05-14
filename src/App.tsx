@@ -1,10 +1,12 @@
 import React from 'react';
 
-import logo from 'logo.svg';
 import 'App.scss';
+import CardList from 'components/card-list';
 
 function App() {
-  return (<div></div>);
+  return (
+    <CardList></CardList>
+  );
 }
 
 export default App;
